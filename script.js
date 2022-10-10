@@ -75,7 +75,7 @@ window.onload = function () {
             }
 
             user3 = {
-                user: 'viktor',
+                user: 'victor',
                 pass: 'hej123',
                 userImg: 'victor.png'
             }

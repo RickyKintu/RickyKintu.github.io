@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Rickys Login</title>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <script src="script.js"></script>
+        
+    </head>
+    <body>
+        <div id="container">
+            <div id="loginBox">
+                <div id="loginMenu" class="loginMenu">
+                    <ul>
+                        <li id="menuLogin">Logga in</li>
+                        <li id="menuSignUp">Skapa konto</li>
+                        <li id="menuClearDB">Clear DB</li>
+                    </ul>
+
+                </div>
+                
+                <div class="title">
+                    <h1 id="title">Medlemszon</h1>
+                </div>
+                <div class="content">
+
+                    <div id="offline">
+                     <form id="loginForm">
+                        <input type="text" name="username" id="l_username" placeholder="Användarnamn" />
+                        <input type="password" name="password" id="l_password" placeholder="Lösenord" />
+                        <span class="errorColor" id="errorText"></span>
+                        <button type="button" id="loginBtn">Logga in</button>
+                        <span class="signUpText" id="goToSignUp">Skapa Konto</span>
+                    </form>
+
+                    <form id="signUpForm">
+                        <input type="text" name="username" id="s_username" placeholder="Användarnamn" />
+                        <input type="password" name="password" id="s_password" placeholder="Lösenord" />
+                        <span class="errorColor" id="errorTextS"></span>
+                        <button type="button" id="signUpBtn">Skapa Konto</button>
+                        <span class="signUpText" id="goToLogin">Jag har redan ett konto</span>
+                    </form>
+                    
+                    
+
+                        
+                        
+                    </div>
+
+                    <div id="online">
+                        <div id="userImg" class="avatar">
+
+                        </div>
+                        <button id="logoutBtn">Logga ut</button>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <footer>Copyright © 2022 Manchester United by Ricky</footer>
+    </body>
+</html>
